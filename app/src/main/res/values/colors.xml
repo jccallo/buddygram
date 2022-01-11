@@ -7,4 +7,18 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- colores -->
+    <color name="morado_light">#857bf3</color>
+    <color name="morado">#504FC0</color>
+    <color name="morado_dark">#08278f</color>
+    <color name="naranja_light">#ffc583</color>
+    <color name="naranja">#FC9455</color>
+    <color name="naranja_dark">#c46528</color>
+    <color name="blanco">#fdfeff</color>
+    <color name="violeta_light">#5f607b</color>
+    <color name="violeta">#35364F</color>
+    <color name="violeta_dark">#0f1027</color>
+    <color name="blanco_dark">#cacbcc</color>
+
 </resources>

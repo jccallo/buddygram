@@ -29,9 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/app_name"
-            android:textSize="25sp"
-            android:textStyle="bold"
-            android:textColor="#35364F"/>
+            android:textAppearance="@style/TextAppearance.Buddygram.Title"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -42,13 +40,13 @@
             android:textColor="#35364F"/>
 
         <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Buddygram.TextInputLayout"
             android:id="@+id/email_text_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
             android:hint="@string/login_email"
-            app:endIconMode="clear_text"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            app:endIconMode="clear_text">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/email_edit_text"
@@ -99,8 +97,7 @@
             android:layout_gravity="center_horizontal"
             android:text="@string/login_link_register"
             android:textSize="16sp"
-            android:textColor="#35364F"
-            android:textColorLink="#504FC0"/>
+            android:textColor="#35364F"/>
 
     </LinearLayout>
 
