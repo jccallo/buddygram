@@ -1,11 +1,17 @@
 <resources>
     <string name="app_name">Buddygram</string>
 
-    <!-- login -->
+    <!-- login fragment -->
     <string name="login_email">Correo</string>
     <string name="login_password">Contraseña</string>
     <string name="login_button">Iniciar Sesion</string>
     <string name="login_error_message">La contraseña debe contener al menos 6 carácteres</string>
     <string name="login_text">Inicia sesion para ingresar a tu cuenta</string>
     <string name="login_link_register">¿No tienes una cuenta? <a href="www.google.com">Registrate</a></string>
+
+    <!-- home fragment -->
+    <string name="search_title">Search</string>
+    <string name="filter_title">Title</string>
+    <string name="product_title">Titulo</string>
+    <string name="product_description">hola, este es un nuevo producto.</string>
 </resources>
